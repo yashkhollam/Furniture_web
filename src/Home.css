@@ -1,0 +1,259 @@
+@import url('https://fonts.googleapis.com/css2?family=Nerko+One&family=Pacifico&family=SUSE:wght@100..800&family=Space+Grotesk:wght@300..700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Nerko+One&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.Banner{
+    position: absolute;
+    object-fit: cover;
+    height:630px;
+    width: 100vw;
+  }
+  
+  .heading{
+    font-family: "SUSE", sans-serif;
+    letter-spacing: 4px;
+    font-size:20px ;
+    position: absolute;
+    text-align: center;
+    margin: 130px 0 0 200px; 
+    text-shadow: 2px 2px 5px gray;
+  }
+  .headingtxt2{
+    margin-top: 30px;
+  }
+
+    .main{
+      position: relative;
+      top: 660px;
+    }
+  
+    .Toppicktxt{
+      margin-left:50px;
+    }
+
+ 
+
+.Catogerycontainer{
+  display: flex;
+  flex-direction:column;
+  
+}
+
+.prodcatogeries{
+  
+   background-color:gainsboro; 
+    margin:30px 600px 0 40px;
+    height: 500px;
+    border-radius: 14px;
+    width:780px;
+    
+  }
+
+  .shopbycatogerytxt{
+    position: absolute;
+    font-size: 20px;
+    letter-spacing: 4px;
+    font-family: "Rubik", sans-serif;
+    font-weight: bold;
+    margin: 20px 0 0 30px;
+  }
+
+  .DiscoverCategoriestxt{
+    position: absolute;
+     color: teal;
+     font-family: "Nerko One", cursive;
+     font-size: 60px;
+     margin: 50px 0 0 30px;
+  }
+
+
+  .catitems{
+    position: absolute;
+    margin: 160px 0 0 30px;
+    display: grid;
+    grid-template-columns: repeat(4,auto);
+    column-gap: 20px;
+    row-gap: 30px;
+  }
+ 
+ 
+  .catitem1{
+    position:relative;
+    background-color:antiquewhite;
+    height: 130px;
+    width: 160px;
+    border-radius: 16px;
+  }
+
+  .catitem1:hover{
+    transform: scale(0.9)
+  }
+
+  .catitemicon{
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    margin:20px 0 0 55px;
+  }
+
+  .catnametxt{
+    position: absolute;
+    font-family: "Rubik", sans-serif;
+    font-weight: bold;
+     margin:75px 0 0 51px ; 
+  }
+
+.newariwal{
+  position: absolute;
+  font-family: "Rubik", sans-serif;
+  font-weight: bold;
+  margin: 20PX 0 0 30PX;
+  font-size: 20px;
+
+}
+
+.newariwalicon{
+position: absolute;
+margin: 10PX 0 0 530PX;
+}
+
+.Carousel{
+  position: absolute;
+    width: 600px;
+    height: 500px;
+    border-radius: 14px;
+  }
+
+
+  .carouselslide{
+    position: absolute;
+    background-color:aliceblue;
+    height: 500px;
+    width: 600px;
+    margin: 30px 0px 0px 890px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+ 
+  .carusolimage{
+   position: relative;
+    margin: 60px 0 0 0;
+    width: 600px;
+    height: 440px;
+    object-fit: cover;
+   
+  
+  }
+
+  .Bestsellercontainer{
+    margin: 50px 0 0 50px;
+  }
+
+  .bestsellericon{
+    position: absolute;
+  }
+
+  .bestsellertxt{
+    
+   margin-left: 60px;
+  }
+
+  .bestselleritemscontainer{
+    position: absolute;
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    row-gap: 20px;
+    column-gap: 20px;
+    margin: 30px 0 0 90px;
+  }
+  .bestselleritems{
+    background-color:whitesmoke;
+    position:absolute;
+    height: 400px;
+    width: 400px;
+   
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  
+  }
+
+
+.BSitem1{
+  position:relative;
+  height: 170px;
+  width: 170px;
+}
+
+.customerreviewcontainer{
+  margin: 480px 0 0 60px;
+
+}
+
+.customerreviewicon{
+  position: absolute;
+}
+
+.Customerreviewheadingtxt{
+  margin:5px 0 0 70px;
+
+}
+
+.custreviews{
+  position: absolute;
+  display: grid;
+  grid-template-columns: repeat(4,auto);
+  column-gap: 20px;
+  row-gap: 20px;
+  margin: 40px 0 0 80px;
+}
+
+.customerreview{
+  background-color: beige;
+  height: 300px;
+  width: 300px; 
+}
+
+.custimg{
+  position: absolute;
+  border-radius: 50%;;
+  height: 45px;
+  width: 45px;
+  margin: 13px 0 0 15px;
+}
+
+.reviewername{
+  font-family: "SUSE", sans-serif;
+  margin: 14px 0 0 75px;
+}
+
+.reviewdate{
+  margin: 0px 0 0 75px;
+  font-size: 12px;
+  color:gray;
+}
+
+.review{
+  color: brown;
+  text-indent: 40px;
+  margin: 20px 20px 0 10px;
+  
+}
+
+
+
+
+
+
+
+
+
+ 

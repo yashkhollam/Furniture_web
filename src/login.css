@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&family=SUSE:wght@100..800&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.form{
+    background-color:#f0ead2 ;
+    height:550px;
+    width:400px;
+    margin: 50px 0 0 600px;
+    position: absolute;
+    border-radius: 10px;
+}
+
+.loginheading{
+    position: absolute;
+    font-family: "Roboto Slab", serif; 
+    margin: 50px 0 0 150px;
+   
+}
+
+.email{
+    background-color:#dde5b6;
+    border: none;
+    border-radius: 20px;
+    margin: 140px 0 0 50px;
+    width:300px;
+    height:100px;
+}
+
+.emailtxt{
+    position: absolute;
+    font-family: "Open Sans", sans-serif;
+    margin:15px 0 0 24px ;
+    font-size: 17px;
+}
+
+.mailicon{
+   position: absolute; 
+   margin: 50px 0 0 24px;
+   font-size: 20px;
+}
+
+.emailinput{
+     margin: 46px 0 0 50px;
+     background-color:snow;
+     border: none;
+     font-size: 15px;
+     padding: 7px;
+     border-radius: 11px;
+     
+} 
+
+.password{
+     background-color:#dde5b6 ; 
+    border: none;
+    border-radius: 20px;
+    margin: 35px 0 0 50px;
+    width:300px;
+    height:100px;
+}
+
+.passwordtxt{
+    position: absolute;
+    font-family: "Open Sans", sans-serif;
+    margin:15px 0 0 24px ;
+    font-size: 17px;
+}
+
+.passwordicon{
+   position: absolute; 
+   margin: 50px 0 0 24px;
+   font-size: 20px;
+}
+
+.passwordinput{
+     margin: 46px 0 0 50px;
+      background-color:snow ;/* #bde0fe; */
+     border: none;
+     font-size: 15px;
+     padding: 7px;
+     border-radius: 11px;
+     
+} 
+
+.loginbtn{
+    margin: 30px 0 0 110px;
+    width: 160px;
+    height: 40px;
+    font-size: 20px;
+    border: none;
+    border-radius: 11px;
+    background-color: #adc178;
+    color: white;
+}
+
+.Signuplogin{
+    position: absolute;
+    font-size: 22px;
+    margin: 40px 0 0 30px;
+    width: 80px;
+    height: 40px;
+    font-family: "Roboto Slab", serif;
+    color:rgb(13, 13, 179);
+  
+}
+
+.forgetpassword{
+   position: absolute;
+    font-size: 18px;
+    margin: 40px 0 0 280px;
+    width: 80px;
+    height: 40px;
+    font-family: "Roboto Slab", serif;
+    color:rgb(13, 13, 179);
+  
+}

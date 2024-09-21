@@ -1,0 +1,138 @@
+[
+     {
+        "id":1,
+        "name":"KFC",
+        "rating":3.9,
+        "discription":"Burger, Rolls, Fast Food",
+        "price":300,
+        "img":"./src/images/fooditemimg/KFC.jpg",
+        "arival":"34min",
+        "OFF":"10%"
+
+     },
+
+     {
+        "id":2,
+        "name":"Domino's Pizza",
+        "rating":3.9,
+        "discription":"Pizza,Fast Food",
+        "price":"₹350",
+        "img":"./src/images/fooditemimg/Domino Pizza.avif",
+        "arival":"20min",
+        "OFF":"10%"
+     },
+
+     {
+        "id":3,
+        "name":"Hotel Sandeep",
+        "rating":3.9,
+        "discription":"Maharashtrian...",
+        "price":"₹400",
+        "img":"./src/images/fooditemimg/hotel Sandeep.avif",
+        "arival":"34min",
+        "OFF":"15%"
+     },
+
+
+     {
+        "id":4,
+        "name":"LunchBox - Meals and Thalis",
+        "rating":3.9,
+        "discription":"North Indian, Biryani, Mughlai",
+        "price":"₹150",
+        "img":"./src/images/fooditemimg/lunchbox.avif",
+        "arival":"40min",
+        "OFF":"15%"
+     },
+
+     {
+        "id":5,
+        "name":"McDonald's",
+        "rating":3.9,
+        "discription":"Burger, Fast Food, Desserts, Wraps",
+        "price":"₹300",
+        "img":"./src/images/fooditemimg/Mcdonaldimg.avif",
+        "arival":"1hr",
+        "OFF":"5%"
+     },
+
+     {
+        "id":6,
+        "name":"SUBway",
+        "rating":3.9,
+        "discription":"Burger, Rolls, Fast Food",
+        "price":"₹300",
+        "img":"./src/images/fooditemimg/Subway.avif",
+        "arival":"34min",
+        "OFF":"20%"
+     },
+
+     {
+        "id":7,
+        "name":"Surve's Pure Non-Veg",
+        "rating":4.0,
+        "discription":"Maharashtrian, North India",
+        "price":"₹300",
+        "img":"./src/images/fooditemimg/thali.avif",
+        "arival":"34min",
+        "OFF":"20%"
+     }
+]
+
+
+
+
+
+
+
+
+
+
+
+{
+   "id":3,
+   "name":"Sofa",
+   "rating":3,
+   "discription":"Burger, Rolls, Fast Food",
+   "price":50000,
+   "img":"./image asset/products/sofa/sofa1.jpg",
+  
+   "OFF":"5%"
+
+},
+
+{
+   "id":4,
+   "name":"table",
+   "rating":3.9,
+   "discription":"Burger, Rolls, Fast Food",
+   "price":20000,
+   "img":"./image asset/products/sofa/sofa2.jpg",
+  
+   "OFF":"10%"
+
+},
+
+{
+   "id":5,
+   "name":"sofa",
+   "rating":1.9,
+   "discription":"Burger, Rolls, Fast Food",
+   "price":60000,
+   "img":"./image asset/products/dining table/dtable2.jpg",
+  
+   "OFF":"30%"
+
+},
+
+{
+   "id":6,
+   "name":"chair",
+   "rating":3.9,
+   "discription":"Burger, Rolls, Fast Food",
+   "price":13000,
+   "img":"./image asset/products/chair/chair3.jpg",
+   
+   "OFF":"20%"
+
+}

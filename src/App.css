@@ -1,0 +1,236 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing:border-box;
+}
+
+/* 
+.navbar{
+ 
+  top: 20px;
+}
+
+.navlist{
+  display: flex;
+  list-style-type: none;
+  column-gap: 50px;
+  font-size: 20px;
+  background-color: wheat;
+  height:50px;
+  justify-content: center;
+  align-items: center;
+} */
+
+/* 
+.Banner{
+  position: absolute;
+  object-fit: cover;
+  height:100vh;
+  width: 100vw;
+}
+
+.heading{
+  position: absolute;
+  text-align: center;
+  margin: 150px 0 0 370px; 
+}
+.headingtxt2{
+  margin-top: 30px;
+}
+
+.search{
+  margin-top: 40px;
+}
+
+.searchbtn{
+ 
+margin: 20px 0 0 0; 
+height: 50px;
+width: 50px; 
+border: none;
+border-top-left-radius: 10px;
+border-bottom-left-radius: 10px;
+}
+
+.searchinput{
+  height: 50px;
+  width: 500px;
+  border: none;
+  border-top-right-radius: 10px;
+ border-bottom-right-radius: 10px;
+}
+
+  .main{
+    position: relative;
+    top: 700px;
+  }
+
+  .Toppicktxt{
+    margin-left:50px;
+  } */
+
+  /* .Productseemore{
+    display: flex;
+    overflow-x: auto;
+    margin:60px  120px 0 120px;
+  }
+  .Productseemore::-webkit-scrollbar{
+    display: none;
+  }
+
+  .items{
+    min-width:400px;
+    width:500px; 
+    height: 320px;
+    margin: 2px;
+    left:30px;
+   
+  }
+
+  .items:hover{
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: rgba(128, 128, 128, 0.281);
+    
+  }
+
+  .sofa1{
+    position: absolute;
+    width: 380px;
+    height: min-content;
+    margin: 10px 0 0 10px;
+    border-radius: 10px;
+    position:sticky;
+  }
+
+  .brandname{
+    position: absolute;
+    margin: 10px 0 0 25px;
+    position:sticky;
+  }
+
+  .price{
+    position: absolute;
+    margin: 10px 0 0 300px;
+    position:sticky;
+  }
+
+  .seemore{
+    position: absolute;
+    margin: 0px 0px 10px 25px;
+    position:sticky;
+  } 
+
+  .chair2{
+    position: absolute;
+    width: 380px;
+    height: min-content;
+    margin: 10px 0 0 10px;
+    border-radius: 10px;
+    position:sticky;
+  }*/
+
+
+
+  /* for JSON */
+/* 
+.FurnProduct{
+  position: absolute;
+  margin: 60px 0 0 200px;
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  column-gap: 20px;
+  row-gap: 20px;
+}
+
+
+.Furnitem1{
+  width:400px; 
+  height: 320px;
+  margin: 2px;
+  left:30px;
+  
+ 
+}
+
+.Furnitem1:hover{
+  background-color:whitesmoke;
+  background-color:beige;
+  border-radius:12px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+.Furnsofa1{
+  position: absolute;
+    width: 380px;
+    height: min-content;
+    margin: 10px 0 0 10px;
+    border-radius: 10px;
+}
+
+.off{
+  position: absolute;
+  margin: 170px 0 0 11px;
+  background-color: rgb(16, 16, 221);
+  color: white;
+  width: 90px;
+  padding-left: 10px;
+}
+
+.Furnbrandname{
+  position: absolute;
+  margin: 260px 0 0 25px;
+  font-size: 17px;
+  font-weight: bold;
+  font-family: "Raleway", sans-serif; 
+}
+
+.Furnrating{
+  position: absolute;
+  margin: 263px 0 0 350px;
+  background: rgb(73, 221, 73);
+  width:37px;
+  text-align: center;
+  border-radius: 4px;
+}
+
+ 
+
+.Description{
+  position: absolute;
+  margin: 260px 0 0 80px;
+  font-family: "Raleway", sans-serif; 
+  font-size:17px;
+  color:rgba(0, 0, 0, 0.419);
+}
+
+.addcart{
+  position: absolute;
+  margin: 285px 0 0 30px;
+  font-family: "Raleway", sans-serif; 
+  font-size:17px;
+  background-color:yellow;
+  border: none;
+  border-radius: 10px;
+  height: 30px;
+  width: 95px;
+}
+
+.cart{
+  position: absolute;
+  background-color: yellow;
+  width: 60px;
+  height: 50px;
+  text-align: center;
+  align-content: center;
+  margin-left: 90vw;
+
+}
+
+.Furnprice{
+  position: absolute;
+  margin: 290px 0 0 330px;
+  font-size: 17px;
+}  */

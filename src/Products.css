@@ -1,0 +1,236 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+   
+}
+
+.orderOnline{
+    margin-left:200px;
+    margin-top: 80px;
+}
+.orderfoodtxt{
+  font-family: "Raleway", sans-serif;
+  font-size:33px;
+ 
+}
+
+
+.orderitems{
+
+/* display: grid;
+grid-template-columns:repeat(3,1fr);
+gap:0; */
+
+/* taken from chat gtp */
+position: absolute;
+display: grid;
+grid-template-columns:repeat(3,auto);
+row-gap:20px;
+column-gap: 16px;
+margin:20px 0 0 0;
+}
+
+
+.orderitem1{
+  
+    height:340px;
+    width:348px;
+    position: relative;
+}
+
+.orderitem1:hover{
+    background-color:whitesmoke;
+    border-radius:12px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.orderitem2{
+  
+    height:340px;
+    width:348px;
+    position: relative;
+}
+
+
+.orderitem2:hover{
+    background-color:whitesmoke;
+    border-radius:12px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+}
+
+.orderitem3{
+  
+    height:340px;
+    width:348px;
+    position: relative;
+}
+
+
+.orderitem3:hover{
+    background-color:whitesmoke;
+    border-radius:12px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.orderitem4{
+  
+    height:340px;
+    width:348px;
+    position: relative;
+}
+
+
+.orderitem4:hover{
+    background-color:whitesmoke;
+    border-radius:12px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.orderitem5{
+  
+    height:340px;
+    width:348px;
+    position: relative;
+}
+
+
+.orderitem5:hover{
+    background-color:whitesmoke;
+    border-radius:12px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.orderitem6{
+  
+    height:340px;
+    width:348px;
+    position: relative;
+}
+
+
+.orderitem6:hover{
+    background-color:whitesmoke;
+    border-radius:12px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.orderitem7{
+  
+    height:340px;
+    width:348px;
+    position: relative;
+} 
+
+
+.orderitem7:hover{
+    background-color:whitesmoke;
+    border-radius:12px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+
+
+
+.foodimg{
+ height:228px;
+ width: 328px;  
+ object-fit: cover; 
+ margin:12px 0 0 10px;
+ border-radius:12px;
+ position:absolute;
+}
+
+.discount{
+    position: absolute;
+    color: white;
+    background-color: rgb(37, 37, 223); 
+    margin:180px 0 0 10px;
+    width:100px;
+   
+}
+
+.brandname{
+    position:absolute;
+  margin:250px 0 0 15px;
+  font-family: "Raleway", sans-serif; 
+}
+
+.rating{
+position: absolute;
+margin:250px 0 0 296px;
+background-color: rgb(52, 200, 52);
+font-family: "Raleway"; 
+font-weight: bold;
+color: white;
+width:35px;
+text-align: center;
+border-radius:4px;
+padding: 1px;
+}
+
+.discription{
+    position:absolute;
+    margin:280px 0 0 15px;
+    font-family: "Raleway", sans-serif; 
+    font-size:17px;
+    color:rgba(0, 0, 0, 0.419);
+}
+
+.price{
+    position:absolute;
+    margin:278px 0 0 290px;
+    font-family: "Raleway", sans-serif; 
+    font-size:17px;
+    color:rgba(0, 0, 0, 0.419);  
+}
+
+
+.arivaltime{
+    position:absolute;
+    margin:300px 0 0 290px;
+    font-family: "Raleway", sans-serif; 
+    font-size:13px;
+    color:rgba(0, 0, 0, 0.419); 
+}
+
+ .addtocart{
+    position: absolute;
+    margin: 310px 0 0 20px;
+    font-family: "Raleway", sans-serif; 
+    font-size:14px;
+    background-color:rgb(246, 246, 92);
+    border: none;
+    border-radius: 10px;
+    height: 25px;
+    width: 85px;
+  } 
+  
+  .cart{
+    position: absolute;
+    background-color: yellow;
+    width: 60px;
+    height: 50px;
+    text-align: center;
+    align-content: center;
+    margin: 30px 0 0 75vw;
+    border-radius: 10px;
+    font-size: 20px;
+    cursor: pointer;
+  }
+
+  .removecart{
+    position: absolute;
+    background-color: yellow;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    align-content: center;
+    margin: 30px 0 0 80vw;
+    border-radius: 10px;
+    border:none;
+    font-size: 20px;
+    cursor:pointer;
+  }

@@ -1,0 +1,103 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&family=SUSE:wght@100..800&display=swap');
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar{
+ 
+    
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+  }
+  
+  .navlist{
+    position: relative;
+    display: flex;
+    list-style-type: none;
+    column-gap: 50px;
+    font-size: 20px;
+    height:70px;
+    /* justify-content: center; */
+    align-items: center;
+    background-color: whitesmoke;
+   
+    font-family: "Roboto Slab", serif;
+   width: 100vw;
+    
+
+  }
+
+  .navlist a{
+    text-decoration: none;
+  }
+
+  .logo{
+    position: relative;
+    height:60px;
+    width: 70px;
+  }
+  
+  .search{
+   align-items: center;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .searchbtn{
+   
+  /* margin: 20px 0 0 0;  */
+  height: 50px;
+  width: 50px; 
+  border: none;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  background-color:	#d3f2ec ;
+  }
+
+  .searchicon{
+    font-size: 21px;
+  }
+  
+  .searchinput{
+    height: 50px;
+    width: 500px;
+    border: none;
+    /* border-top-right-radius: 10px;
+   border-bottom-right-radius: 10px; */
+   padding-left: 40px;
+   font-size: 20px;
+   color:black;
+    /* background-color:	#fef5f7; */
+   background-color: gainsboro;
+  }
+  .searchinput:hover{
+    border: 0.5px solid black;
+  }
+  
+  
+  .Home{
+   
+    color: 	#3eb59f;
+    
+  }
+  .Product{
+    color:	#fcd079;
+    margin-left:450px;
+  }
+  .Aboutus{
+    color:	#e8433f;
+  }
+
+  .Signup{
+   color:	#224e67;
+  }
+
+  .login{
+    color: 	#2a2227;
+  }
+
