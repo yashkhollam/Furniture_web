@@ -18,23 +18,6 @@
 
 .orderitems{
 
-
-
-/* taken from chat gtp 
-position: absolute;
-display: grid;
-grid-template-columns:repeat(3,auto);
-row-gap:20px;
-column-gap: 16px;
-margin:20px 0 0 0;
-}
-
-
-.orderitem{
-  
-    height:340px;
-    width:348px;
-    position: relative;
 }
 
 .orderitem:hover{
