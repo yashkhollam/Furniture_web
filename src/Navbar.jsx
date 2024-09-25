@@ -1,40 +1,49 @@
-import './Navbar.css';
+import "./Navbar.css";
 
 import React from "react";
 import { Link } from "react-router-dom";
-import logo from './image asset/logo/logo.png';
+import logo from "./image asset/logo/logo.png";
 
 const Navbar = () => {
-    return (
-        <>
+  return (
+    <>
+      <nav className="navbar sticky-top ">
+        <a>
+          <ul className="navlist">
+            <Link to={"/"}>
+              
+              <li className="Home">
+                
+                <img src={logo} alt="logo" className="logo" />
+              </li>
+            </Link>
+            <li className="search">
+              <button className="searchbtn">
+                <i class="searchicon bi-search"></i>
+              </button>
 
+              <input
+                type="searchinput"
+                placeholder="search best for you"
+                className="searchinput"
+              />
+            </li>
 
-            <nav className='navbar'>
-                <a>
-                    <ul className='navlist'>
-                        <Link to={'/'}> <li className='Home'> <img src={logo} alt="logo" className='logo' /></li></Link>
-                        <li className='search'>
-                            <button className='searchbtn'><i class="searchicon bi-search"></i></button>
+            <Link to="/Product">
+              
+              <li className="Product">Product</li>
+            </Link>
 
-                            <input type='searchinput' placeholder='search best for you' className='searchinput' />
-                        </li>
+            <li className="Aboutus">About us</li>
 
-
-
-
-                        <Link to='/Product'> <li className='Product'>Product</li> </Link>
-
-                        <li className='Aboutus'>About us</li>
-
-                        <Link to='login'> <li className='login'>login</li></Link>
-
-                    </ul>
-                </a>
-            </nav>
-
-
-
-        </>
-    )
-}
+            <Link to="login">
+              
+              <li className="login">login</li>
+            </Link>
+          </ul>
+        </a>
+      </nav>
+    </>
+  );
+};
 export default Navbar;
