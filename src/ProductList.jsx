@@ -23,10 +23,11 @@ const ProductList = (prodlist) => {
               <p className="rating">{data.rating}</p>
               <p className="discription">{data.discription}</p>
               <p className="price">₹{data.price}</p>
-            </div>
-            <button className="addtocart" onClick={() => setCart(cart + 1)}>
+              <button className="addtocart" onClick={() => setCart(cart + 1)}>
               Add to cart
             </button>
+            </div>
+            
           </div>
         );
       });
@@ -36,11 +37,11 @@ const ProductList = (prodlist) => {
   return (
     <div className="container1 ">
      
-        <div className="cart">
-          <i class="bi bi-cart"></i> {cart}
+        <div className="cart sticky-top">
+          <i class="bi bi-cart"> {cart}</i>
         </div>
         <button
-          className="removecart"
+          className="removecart sticky-top"
           onClick={() => setCart(cart <= 0 ? 0 : cart - 1)}
         >
           <i class="bi bi-trash3-fill"></i>

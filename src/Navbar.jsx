@@ -7,7 +7,7 @@ import logo from "./image asset/logo/logo.png";
 const Navbar = () => {
   return (
     <>
-      <nav className="navbar sticky-top ">
+      <nav className="navbar fixed-top ">
         <a>
           <ul className="navlist">
             <Link to={"/"}>
@@ -17,7 +17,7 @@ const Navbar = () => {
                 <img src={logo} alt="logo" className="logo" />
               </li>
             </Link>
-            <li className="search">
+            {/* <li className="search">
               <button className="searchbtn">
                 <i class="searchicon bi-search"></i>
               </button>
@@ -27,7 +27,7 @@ const Navbar = () => {
                 placeholder="search best for you"
                 className="searchinput"
               />
-            </li>
+            </li> */}
 
             <Link to="/Product">
               
@@ -35,11 +35,34 @@ const Navbar = () => {
             </Link>
 
             <li className="Aboutus">About us</li>
-
-            <Link to="login">
+            
+            <Link to="Blog">
               
-              <li className="login">login</li>
+              <li className="Blog">Blog</li>
             </Link>
+
+            <Link to="Contact">
+              
+              <li className="Contact">Contact</li>
+            </Link>
+
+
+             <li className="search">
+              <button className="searchbtn">
+                <i class="searchicon bi-search"></i>
+              </button>
+
+              <input
+                type="searchinput"
+                placeholder="search best for you"
+                className="searchinput"
+              />
+            </li> 
+
+             <Link to="login">
+              
+              <li className="login">My Account</li>
+            </Link> 
           </ul>
         </a>
       </nav>

@@ -1,7 +1,7 @@
 import "./Home.css";
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Banner from "./image asset/poster5.jpg";
-import poster2 from "./image asset/poster2.jpg";
+import Banner from "./image asset/poster6.jpg";
+import poster2 from "./image asset/poster3.jpg";
 import poster1 from "./image asset/poster1.jpg";
 import poster3 from "./image asset/poster3.jpg";
 import custimg1 from './image asset/customer-images/image1.jpg'
@@ -28,10 +28,11 @@ function Home() {
         <img src={Banner} alt="Banner" className="Banner" />
 
         <div className="heading">
-          <h1 className="headingtxt1">
+        <h1 className="headingtxt2"> Affordable Luxury for Every Room</h1>
+          {/* <h2 className="headingtxt1">
             Transform Your Space with Timeless Furniture Designs{" "}
-          </h1>
-          <h2 className="headingtxt2"> Affordable Luxury for Every Room</h2>
+          </h2> */}
+          
 
 
         </div>
