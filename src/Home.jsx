@@ -25,10 +25,36 @@ function Home() {
   return (
     <div>
       <header className="header">
-        <img src={Banner} alt="Banner" className="Banner" />
+        {/* <img src={Banner} alt="Banner" className="Banner" /> */}
+        <Carousel className="carousel mt-2 absolute"> {/*taken from react bootstrap and help from blackbox */}
+
+
+              <Carousel.Item>
+                <img src={poster2} className="carusolimage w-100 vh-fit " alt="carusolimage" />
+                <Carousel.Caption>
+
+                  <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                </Carousel.Caption>
+              </Carousel.Item>
+              <Carousel.Item>
+                <img src={poster1} className="carusolimage  w-100" alt="carusolimage" />
+                <Carousel.Caption>
+
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </Carousel.Caption>
+              </Carousel.Item>
+              <Carousel.Item>
+                <img src={poster3} className="carusolimage  w-100" alt="carusolimage" />
+                <Carousel.Caption>
+
+                  <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                </Carousel.Caption>
+              </Carousel.Item>
+            </Carousel>
+
 
         <div className="heading">
-        <h1 className="headingtxt2"> Affordable Luxury for Every Room</h1>
+      <h1 className="headingtxt2"> Affordable Luxury <br/>for Every Room</h1>
           {/* <h2 className="headingtxt1">
             Transform Your Space with Timeless Furniture Designs{" "}
           </h2> */}
